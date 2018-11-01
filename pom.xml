@@ -78,33 +78,6 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>net.sf.ehcache</groupId>
-			<artifactId>ehcache</artifactId>
-			<version>${ehcache.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.ofo.jupiter</groupId>
-			<artifactId>jupiter-dao</artifactId>
-			<version>${ofo.jupiter.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.ofo.jupiter</groupId>
-			<artifactId>jupiter-common</artifactId>
-			<version>${ofo.jupiter.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.ofo.jupiter</groupId>
-			<artifactId>jupiter-zookeeper</artifactId>
-			<version>${ofo.jupiter.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.ofo.jupiter</groupId>
-			<artifactId>jupiter-cache</artifactId>
-			<version>${ofo.jupiter.version}</version>
-		</dependency>
 		<!-- spring的包 -->
 		<dependency>
 			<groupId>org.springframework</groupId>
