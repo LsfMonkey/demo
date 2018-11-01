@@ -22,6 +22,12 @@ public class BookController {
 	private BookService bookService;
 
 
+	@RequestMapping(value = "/pin", method = RequestMethod.GET)
+	@ResponseBody
+	private String pin(Model model) {
+		return "PONG";
+	}
+
 	@RequestMapping(value = "/ping", method = RequestMethod.GET)
 	@ResponseBody
 	private String ping(Model model) {
